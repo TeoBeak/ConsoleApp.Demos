@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Loops", "Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.ExceptionHandlingDemo", "ConsoleApp.ExceptionHandlingDemo\ConsoleApp.ExceptionHandlingDemo.csproj", "{363B834A-AF51-4A12-B943-512EC2147885}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.StringManipulation", "ConsoleApp.StringManipulation\ConsoleApp.StringManipulation.csproj", "{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,18 @@ Global
 		{363B834A-AF51-4A12-B943-512EC2147885}.Release|x64.Build.0 = Release|Any CPU
 		{363B834A-AF51-4A12-B943-512EC2147885}.Release|x86.ActiveCfg = Release|Any CPU
 		{363B834A-AF51-4A12-B943-512EC2147885}.Release|x86.Build.0 = Release|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Release|x64.Build.0 = Release|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
