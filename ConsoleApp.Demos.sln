@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.StringManipulati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.DateTimeManipulation", "ConsoleApp.DateTimeManipulation\ConsoleApp.DateTimeManipulation.csproj", "{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp,Methods", "ConsoleApp,Methods\ConsoleApp,Methods.csproj", "{F89CF2C4-676B-447C-ADA0-A4E557E9C914}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,18 @@ Global
 		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Release|x64.Build.0 = Release|Any CPU
 		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Release|x86.ActiveCfg = Release|Any CPU
 		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Release|x86.Build.0 = Release|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Debug|x64.Build.0 = Debug|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Debug|x86.Build.0 = Debug|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Release|x64.ActiveCfg = Release|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Release|x64.Build.0 = Release|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Release|x86.ActiveCfg = Release|Any CPU
+		{F89CF2C4-676B-447C-ADA0-A4E557E9C914}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
