@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.ExceptionHandlin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.StringManipulation", "ConsoleApp.StringManipulation\ConsoleApp.StringManipulation.csproj", "{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.DateTimeManipulation", "ConsoleApp.DateTimeManipulation\ConsoleApp.DateTimeManipulation.csproj", "{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +141,18 @@ Global
 		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Release|x64.Build.0 = Release|Any CPU
 		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Release|x86.ActiveCfg = Release|Any CPU
 		{58177B6F-F5E9-4DF6-A374-9C8AF5220DAE}.Release|x86.Build.0 = Release|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Debug|x64.Build.0 = Debug|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Debug|x86.Build.0 = Debug|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Release|x64.ActiveCfg = Release|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Release|x64.Build.0 = Release|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Release|x86.ActiveCfg = Release|Any CPU
+		{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
