@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.StringManipulati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.DateTimeManipulation", "ConsoleApp.DateTimeManipulation\ConsoleApp.DateTimeManipulation.csproj", "{E29BFB3F-D558-4939-863A-B4DDC98D6EFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp,Methods", "ConsoleApp,Methods\ConsoleApp,Methods.csproj", "{F89CF2C4-676B-447C-ADA0-A4E557E9C914}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Methods", "ConsoleApp,Methods\ConsoleApp.Methods.csproj", "{F89CF2C4-676B-447C-ADA0-A4E557E9C914}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
