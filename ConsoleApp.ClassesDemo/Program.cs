@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using ConsoleApp.ClassesDemo;
+
+using ConsoleApp.ClassesDemo.Classes.PersonDemo;
+using ConsoleApp.ClassesDemo.Classes.ShapeDemo;
 
 Console.WriteLine("************************* - Classes and Object - *************************");
 
@@ -46,7 +48,7 @@ var teacherIdNumber = teacher.GetIdNumber();
 Console.WriteLine($"Teacher ID Number: {teacherIdNumber}");
 
 
-Student student = new();
+Student student = new() { FirstName = string.Empty, LastName = string.Empty };
 student.FirstName = "Thompson";
 student.LastName = "Theresa";
 student.DateOfBirth = new DateOnly(2023, 10, 29);
@@ -66,3 +68,17 @@ Console.WriteLine($"Rectangle Area: {rectangleArea}");
 Square square = new(50);
 var squareArea = square.Area();
 Console.WriteLine($"Square Area: {squareArea}");
+
+Cuboid cuboid = new(1, 5, 7);
+var cuboidArea = cuboid.Area(); 
+var cuboidVolume = cuboid.Volume();
+var cuboidPerimeter = cuboid.Perimeter();
+Console.WriteLine($"Cuboid Area: {cuboidArea}");
+Console.WriteLine($"Cuboid Volume: {cuboidVolume}");
+Console.WriteLine($"Cuboid Perimeter: {cuboidPerimeter}");
+
+Sphere sphere = new(7);
+var sphereCircumference = sphere.Circumference();
+var sphereVolume = sphere.Volume();
+Console.WriteLine($"{nameof(Sphere)} Circumference: {sphereCircumference}");
+Console.WriteLine($"{nameof(Sphere)} Volume: {sphereVolume}");

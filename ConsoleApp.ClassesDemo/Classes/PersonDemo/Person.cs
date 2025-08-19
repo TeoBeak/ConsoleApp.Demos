@@ -2,16 +2,11 @@
 // Define a class
 using System.Security.Cryptography;
 
-public class Person
+namespace ConsoleApp.ClassesDemo.Classes.PersonDemo;
+
+public partial class Person
 {
     public Person() { }
-
-     public Person(string firstName, string lastName, DateOnly dob)
-    {
-        FirstName = firstName;
-        LastName = lastName;
-        DateOfBirth = dob;
-    }
 
     public Person(string firstName, string lastName, string taxNumber)
     {
@@ -31,14 +26,16 @@ public class Person
 
     public void PrintFullName()
     {
-        Console.WriteLine($"Full Name: {FirstName} {LastName}");
+        var type = GetType().Name;
+        Console.WriteLine($"{type} Name: {FirstName} {LastName}");
     }
 
     public void PrintInitials()
     {
+        var type = GetType().Name;
         var firstInitial = FirstName[0];
         var lastInitial = LastName[0];
-        Console.WriteLine($"{firstInitial} {lastInitial}");
+        Console.WriteLine($"{type} initials: {firstInitial} {lastInitial}");
     }
 
     public void GenerateTaxNumber()
@@ -63,19 +60,10 @@ public class Person
         return _idNumber;
     }
 
-    public int GetAge()
-    {
-        var age = DateTime.Now.Year - DateOfBirth.Year;
-        return age;
-    }
-
-    public int GetAge(int year)
-    {
-        var age = year - DateOfBirth.Year;
-        return age;
-    }
+    
     protected string GetRandomNumber()
     {
         return RandomNumberGenerator.GetInt32(100000, 999999).ToString();
     }
 }
+
